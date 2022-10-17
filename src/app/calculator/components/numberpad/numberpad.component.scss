@@ -1,0 +1,17 @@
+.numberpad {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+
+  &__button {
+    width: 25%;
+
+    &--operator {
+        background-color: orange;
+    }
+    
+    &--wide {
+      width: 75%;
+    }
+  }
+}
