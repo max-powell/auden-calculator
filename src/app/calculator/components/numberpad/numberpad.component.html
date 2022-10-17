@@ -1,6 +1,7 @@
 <div class="numberpad">
   <button
     class="numberpad__button"
+    (click)="handleButtonPress(button.value)"
     [ngClass]="{
       'numberpad__button--wide': button.wide,
       'numberpad__button--operator': button.operator

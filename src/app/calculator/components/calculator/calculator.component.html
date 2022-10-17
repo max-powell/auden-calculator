@@ -1,2 +1,2 @@
-<app-display [display]="displayValue"></app-display>
-<app-numberpad></app-numberpad>
+<app-display [display]="calculationString"></app-display>
+<app-numberpad (buttonPress)="handleButtonPress($event)"></app-numberpad>
