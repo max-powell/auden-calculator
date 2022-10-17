@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CalculatorService } from 'src/app/shared/services/calculator.service';
 import { Operator } from '../../models';
 
