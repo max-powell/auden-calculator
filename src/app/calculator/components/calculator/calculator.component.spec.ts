@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { DisplayComponent } from '../display/display.component';
+import { NumberpadComponent } from '../numberpad/numberpad.component';
 import { CalculatorComponent } from './calculator.component';
 
 describe('CalculatorComponent', () => {
@@ -8,7 +10,7 @@ describe('CalculatorComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CalculatorComponent ]
+      declarations: [ CalculatorComponent, DisplayComponent, NumberpadComponent ]
     })
     .compileComponents();
 
