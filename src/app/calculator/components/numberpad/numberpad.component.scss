@@ -1,3 +1,5 @@
+$button-colour-operator: #ffa500;
+
 .numberpad {
   display: flex;
   flex-wrap: wrap;
@@ -7,9 +9,9 @@
     width: 25%;
 
     &--operator {
-        background-color: orange;
+      background-color: $button-colour-operator;
     }
-    
+
     &--wide {
       width: 75%;
     }
